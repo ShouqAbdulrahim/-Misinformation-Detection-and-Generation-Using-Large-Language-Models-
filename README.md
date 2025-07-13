@@ -7,9 +7,13 @@
 
 This script performs the following steps:
 	•	✅ Loads and preprocesses synthetic news datasets (LLMFake).
+ 
 	•	✅ Splits the data into training, validation, and test sets.
+ 
 	•	✅ Loads a pre-trained BERT model (bert-base-uncased) and adapts it for binary classification (True / Misinformation).
+ 
 	•	✅ Trains the model with early stopping to prevent overfitting.
+ 
 	•	✅ Calculates evaluation metrics (accuracy, precision, recall, F1-score).
 	•	✅ Runs inference on example texts and prints predictions.
 	•	✅ Reports final evaluation results on the test set.
